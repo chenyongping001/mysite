@@ -1,0 +1,607 @@
+[
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "django.forms.forms",
+        "description": "django.forms.forms",
+        "isExtraImport": true,
+        "detail": "django.forms.forms",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "EmailPostForm",
+        "importPath": "blog.forms",
+        "description": "blog.forms",
+        "isExtraImport": true,
+        "detail": "blog.forms",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0001_initial",
+        "description": "blog.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "blog.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PostAdmin",
+        "kind": 6,
+        "importPath": "blog.admin",
+        "description": "blog.admin",
+        "peekOfCode": "class PostAdmin(admin.ModelAdmin):\n    list_display = ('title', 'slug', 'author', 'publish',   \n                       'status')\n    list_filter = ('status', 'created', 'publish', 'author')\n    search_fields = ('title', 'body')\n    prepopulated_fields = {'slug': ('title',)}\n    raw_id_fields = ('author',)\n    date_hierarchy = 'publish'\n    ordering = ('status', 'publish')",
+        "detail": "blog.admin",
+        "documentation": {}
+    },
+    {
+        "label": "BlogConfig",
+        "kind": 6,
+        "importPath": "blog.apps",
+        "description": "blog.apps",
+        "peekOfCode": "class BlogConfig(AppConfig):\n    name = 'blog'",
+        "detail": "blog.apps",
+        "documentation": {}
+    },
+    {
+        "label": "EmailPostForm",
+        "kind": 6,
+        "importPath": "blog.forms",
+        "description": "blog.forms",
+        "peekOfCode": "class EmailPostForm(forms.Form):\n    name=forms.CharField(max_length=25)\n    email=forms.EmailField()\n    to=forms.EmailField()\n    comments=forms.CharField(required=False,widget=forms.Textarea)",
+        "detail": "blog.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PublishedManager",
+        "kind": 6,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "class PublishedManager(models.Manager): \n    def get_queryset(self): \n        return super(PublishedManager, self).get_queryset().filter(status='published')\nclass Post(models.Model): \n    STATUS_CHOICES = ( \n        ('draft', 'Draft'), \n        ('published', 'Published'), \n    ) \n    title = models.CharField(max_length=250) \n    slug = models.SlugField(max_length=250,  ",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "class Post(models.Model): \n    STATUS_CHOICES = ( \n        ('draft', 'Draft'), \n        ('published', 'Published'), \n    ) \n    title = models.CharField(max_length=250) \n    slug = models.SlugField(max_length=250,  \n                            unique_for_date='publish') \n    author = models.ForeignKey(User, \n                               on_delete=models.CASCADE,",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "blog.urls",
+        "description": "blog.urls",
+        "peekOfCode": "app_name = 'blog'\nurlpatterns = [\n    # post views\n    # path('', views.post_list, name='post_list'),\n    path('', views.PostListView.as_view(), name='post_list'),\n    path('<int:year>/<int:month>/<int:day>/<slug:post>/',\n         views.post_detail,\n         name='post_detail'),\n    path('<int:post_id>/share/', views.post_share, name='post_share')\n]",
+        "detail": "blog.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "blog.urls",
+        "description": "blog.urls",
+        "peekOfCode": "urlpatterns = [\n    # post views\n    # path('', views.post_list, name='post_list'),\n    path('', views.PostListView.as_view(), name='post_list'),\n    path('<int:year>/<int:month>/<int:day>/<slug:post>/',\n         views.post_detail,\n         name='post_detail'),\n    path('<int:post_id>/share/', views.post_share, name='post_share')\n]",
+        "detail": "blog.urls",
+        "documentation": {}
+    },
+    {
+        "label": "PostListView",
+        "kind": 6,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "class PostListView(ListView):\n    queryset = Post.published.all()\n    context_object_name = 'posts'\n    paginate_by = 3\n    template_name = 'blog/post/list.html'\ndef post_share(request, post_id):\n    post = get_object_or_404(Post, id=post_id, status='published')\n    sent = False\n    if(request.method == 'POST'):\n        form = EmailPostForm(request.POST)",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "post_list",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def post_list(request):\n    object_list = Post.published.all()\n    paginator = Paginator(object_list, 3)  # 3 posts in each page\n    page = request.GET.get('page')\n    try:\n        posts = paginator.page(page)\n    except PageNotAnInteger:\n        # If page is not an integer deliver the first page\n        posts = paginator.page(1)\n    except EmptyPage:",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "post_detail",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def post_detail(request, year, month, day, post):\n    post = get_object_or_404(Post, slug=post,\n                             status='published',\n                             publish__year=year,\n                             publish__month=month,\n                             publish__day=day)\n    return render(request,\n                  'blog/post/detail.html',\n                  {'post': post})\nclass PostListView(ListView):",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "post_share",
+        "kind": 2,
+        "importPath": "blog.views",
+        "description": "blog.views",
+        "peekOfCode": "def post_share(request, post_id):\n    post = get_object_or_404(Post, id=post_id, status='published')\n    sent = False\n    if(request.method == 'POST'):\n        form = EmailPostForm(request.POST)\n        if form.is_valid():\n            cd = form.cleaned_data\n            post_url = request.build_absolute_uri(post.get_absolute_url())\n            subject = '{} ({}) recommends you reading \"{}\"'.format(\n                cd['name'], cd['email'], post.title)",
+        "detail": "blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'k9x1mot@(^vb9!*%020&eyr+v*o77mrt-5kl@3(ukii8atx_jc'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "SECRET_KEY = 'k9x1mot@(^vb9!*%020&eyr+v*o77mrt-5kl@3(ukii8atx_jc'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog.apps.BlogConfig',",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog.apps.BlogConfig',\n]\nMIDDLEWARE = [",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'mysite.urls'",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "ROOT_URLCONF = 'mysite.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'mysite.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/dev/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'zh-hans'\nTIME_ZONE = 'Asia/Shanghai'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\nEMAIL_HOST = 'smtp.qq.com'                 # 发送方的smtp服务器地址\nEMAIL_PORT = 587                           # smtp服务端口",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "TIME_ZONE = 'Asia/Shanghai'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\nEMAIL_HOST = 'smtp.qq.com'                 # 发送方的smtp服务器地址\nEMAIL_PORT = 587                           # smtp服务端口\nEMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\nEMAIL_HOST = 'smtp.qq.com'                 # 发送方的smtp服务器地址\nEMAIL_PORT = 587                           # smtp服务端口\nEMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址\nEMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\nEMAIL_HOST = 'smtp.qq.com'                 # 发送方的smtp服务器地址\nEMAIL_PORT = 587                           # smtp服务端口\nEMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址\nEMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码\nEMAIL_USE_TLS = True                       # 必须为True",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = '/static/'\nEMAIL_HOST = 'smtp.qq.com'                 # 发送方的smtp服务器地址\nEMAIL_PORT = 587                           # smtp服务端口\nEMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址\nEMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码\nEMAIL_USE_TLS = True                       # 必须为True\nEMAIL_USE_SSL = False",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nEMAIL_HOST = 'smtp.qq.com'                 # 发送方的smtp服务器地址\nEMAIL_PORT = 587                           # smtp服务端口\nEMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址\nEMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码\nEMAIL_USE_TLS = True                       # 必须为True\nEMAIL_USE_SSL = False\nEMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.qq.com'                 # 发送方的smtp服务器地址\nEMAIL_PORT = 587                           # smtp服务端口\nEMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址\nEMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码\nEMAIL_USE_TLS = True                       # 必须为True\nEMAIL_USE_SSL = False\nEMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_PORT = 587                           # smtp服务端口\nEMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址\nEMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码\nEMAIL_USE_TLS = True                       # 必须为True\nEMAIL_USE_SSL = False\nEMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'chenyongping001@qq.com'       # 发送方 邮箱地址\nEMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码\nEMAIL_USE_TLS = True                       # 必须为True\nEMAIL_USE_SSL = False\nEMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'haainjrjeujbbgdi'   # 获得的  授权码\nEMAIL_USE_TLS = True                       # 必须为True\nEMAIL_USE_SSL = False\nEMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True                       # 必须为True\nEMAIL_USE_SSL = False\nEMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_SSL",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_USE_SSL = False\nEMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_SSL_CERTFILE",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_SSL_CERTFILE = None\nEMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_SSL_KEYFILE",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_SSL_KEYFILE = None\nEMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_TIMEOUT",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "EMAIL_TIMEOUT = None\nDEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = 'chenyongping001@qq.com'  # 和 EMAIL_HOST_USER  相同",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "mysite.urls",
+        "description": "mysite.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('blog/', include('blog.urls', namespace='blog')),\n]",
+        "detail": "mysite.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "mysite.wsgi",
+        "description": "mysite.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "mysite.wsgi",
+        "documentation": {}
+    }
+]
