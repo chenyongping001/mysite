@@ -24,6 +24,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -50,6 +74,23 @@
         "documentation": {}
     },
     {
+        "label": "taggit.managers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "taggit.managers",
+        "description": "taggit.managers",
+        "detail": "taggit.managers",
+        "documentation": {}
+    },
+    {
+        "label": "TaggableManager",
+        "importPath": "taggit.managers",
+        "description": "taggit.managers",
+        "isExtraImport": true,
+        "detail": "taggit.managers",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -71,6 +112,14 @@
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "isExtraImport": true,
+        "detail": "blog.models",
         "documentation": {}
     },
     {
@@ -202,6 +251,22 @@
         "documentation": {}
     },
     {
+        "label": "Tag",
+        "importPath": "taggit.models",
+        "description": "taggit.models",
+        "isExtraImport": true,
+        "detail": "taggit.models",
+        "documentation": {}
+    },
+    {
+        "label": "CommentForm",
+        "importPath": "blog.forms",
+        "description": "blog.forms",
+        "isExtraImport": true,
+        "detail": "blog.forms",
+        "documentation": {}
+    },
+    {
         "label": "EmailPostForm",
         "importPath": "blog.forms",
         "description": "blog.forms",
@@ -245,11 +310,38 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0002_comment",
+        "description": "blog.migrations.0002_comment",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Comment',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=80)),",
+        "detail": "blog.migrations.0002_comment",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blog.migrations.0003_post_tags",
+        "description": "blog.migrations.0003_post_tags",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('taggit', '0002_auto_20150616_2121'),\n        ('blog', '0002_comment'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='post',\n            name='tags',\n            field=taggit.managers.TaggableManager(help_text='A comma-separated list of tags.', through='taggit.TaggedItem', to='taggit.Tag', verbose_name='Tags'),",
+        "detail": "blog.migrations.0003_post_tags",
+        "documentation": {}
+    },
+    {
         "label": "PostAdmin",
         "kind": 6,
         "importPath": "blog.admin",
         "description": "blog.admin",
-        "peekOfCode": "class PostAdmin(admin.ModelAdmin):\n    list_display = ('title', 'slug', 'author', 'publish',   \n                       'status')\n    list_filter = ('status', 'created', 'publish', 'author')\n    search_fields = ('title', 'body')\n    prepopulated_fields = {'slug': ('title',)}\n    raw_id_fields = ('author',)\n    date_hierarchy = 'publish'\n    ordering = ('status', 'publish')",
+        "peekOfCode": "class PostAdmin(admin.ModelAdmin):\n    list_display = ('title', 'slug', 'author', 'publish',\n                    'status')\n    list_filter = ('status', 'created', 'publish', 'author')\n    search_fields = ('title', 'body')\n    prepopulated_fields = {'slug': ('title',)}\n    raw_id_fields = ('author',)\n    date_hierarchy = 'publish'\n    ordering = ('status', 'publish')\n@admin.register(Comment)",
+        "detail": "blog.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CommentAdmin",
+        "kind": 6,
+        "importPath": "blog.admin",
+        "description": "blog.admin",
+        "peekOfCode": "class CommentAdmin(admin.ModelAdmin):\n    list_display = ('name', 'email', 'post', 'created', 'active')\n    list_filter = ('active', 'created', 'updated')\n    search_fields = ('name', 'email', 'body')",
         "detail": "blog.admin",
         "documentation": {}
     },
@@ -267,7 +359,16 @@
         "kind": 6,
         "importPath": "blog.forms",
         "description": "blog.forms",
-        "peekOfCode": "class EmailPostForm(forms.Form):\n    name=forms.CharField(max_length=25)\n    email=forms.EmailField()\n    to=forms.EmailField()\n    comments=forms.CharField(required=False,widget=forms.Textarea)",
+        "peekOfCode": "class EmailPostForm(forms.Form):\n    name = forms.CharField(max_length=25)\n    email = forms.EmailField()\n    to = forms.EmailField()\n    comments = forms.CharField(required=False, widget=forms.Textarea)\nclass CommentForm(forms.ModelForm):\n    class Meta:\n        model = Comment\n        fields = ('name', 'email', 'body')",
+        "detail": "blog.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CommentForm",
+        "kind": 6,
+        "importPath": "blog.forms",
+        "description": "blog.forms",
+        "peekOfCode": "class CommentForm(forms.ModelForm):\n    class Meta:\n        model = Comment\n        fields = ('name', 'email', 'body')",
         "detail": "blog.forms",
         "documentation": {}
     },
@@ -276,7 +377,7 @@
         "kind": 6,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "class PublishedManager(models.Manager): \n    def get_queryset(self): \n        return super(PublishedManager, self).get_queryset().filter(status='published')\nclass Post(models.Model): \n    STATUS_CHOICES = ( \n        ('draft', 'Draft'), \n        ('published', 'Published'), \n    ) \n    title = models.CharField(max_length=250) \n    slug = models.SlugField(max_length=250,  ",
+        "peekOfCode": "class PublishedManager(models.Manager):\n    def get_queryset(self):\n        return super(PublishedManager, self).get_queryset().filter(status='published')\nclass Post(models.Model):\n    STATUS_CHOICES = (\n        ('draft', 'Draft'),\n        ('published', 'Published'),\n    )\n    title = models.CharField(max_length=250)\n    slug = models.SlugField(max_length=250,",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -285,7 +386,16 @@
         "kind": 6,
         "importPath": "blog.models",
         "description": "blog.models",
-        "peekOfCode": "class Post(models.Model): \n    STATUS_CHOICES = ( \n        ('draft', 'Draft'), \n        ('published', 'Published'), \n    ) \n    title = models.CharField(max_length=250) \n    slug = models.SlugField(max_length=250,  \n                            unique_for_date='publish') \n    author = models.ForeignKey(User, \n                               on_delete=models.CASCADE,",
+        "peekOfCode": "class Post(models.Model):\n    STATUS_CHOICES = (\n        ('draft', 'Draft'),\n        ('published', 'Published'),\n    )\n    title = models.CharField(max_length=250)\n    slug = models.SlugField(max_length=250,\n                            unique_for_date='publish')\n    author = models.ForeignKey(User,\n                               on_delete=models.CASCADE,",
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "peekOfCode": "class Comment(models.Model):\n    post = models.ForeignKey(\n        Post, on_delete=models.CASCADE, related_name='comments')\n    name = models.CharField(max_length=80)\n    email = models.EmailField()\n    body = models.TextField()\n    created = models.DateTimeField(auto_now_add=True)\n    updated = models.DateTimeField(auto_now=True)\n    active = models.BooleanField(default=True)\n    class Meta:",
         "detail": "blog.models",
         "documentation": {}
     },
@@ -294,7 +404,7 @@
         "kind": 5,
         "importPath": "blog.urls",
         "description": "blog.urls",
-        "peekOfCode": "app_name = 'blog'\nurlpatterns = [\n    # post views\n    # path('', views.post_list, name='post_list'),\n    path('', views.PostListView.as_view(), name='post_list'),\n    path('<int:year>/<int:month>/<int:day>/<slug:post>/',\n         views.post_detail,\n         name='post_detail'),\n    path('<int:post_id>/share/', views.post_share, name='post_share')\n]",
+        "peekOfCode": "app_name = 'blog'\nurlpatterns = [\n    # post views\n    # path('', views.PostListView.as_view(), name='post_list'),\n    path('', views.post_list, name='post_list'),\n    path('tag/<slug:tag_slug>/', views.post_list, name='post_list_by_tag'),\n    path('<int:year>/<int:month>/<int:day>/<slug:post>/',\n         views.post_detail,\n         name='post_detail'),\n    path('<int:post_id>/share/', views.post_share, name='post_share')",
         "detail": "blog.urls",
         "documentation": {}
     },
@@ -303,7 +413,7 @@
         "kind": 5,
         "importPath": "blog.urls",
         "description": "blog.urls",
-        "peekOfCode": "urlpatterns = [\n    # post views\n    # path('', views.post_list, name='post_list'),\n    path('', views.PostListView.as_view(), name='post_list'),\n    path('<int:year>/<int:month>/<int:day>/<slug:post>/',\n         views.post_detail,\n         name='post_detail'),\n    path('<int:post_id>/share/', views.post_share, name='post_share')\n]",
+        "peekOfCode": "urlpatterns = [\n    # post views\n    # path('', views.PostListView.as_view(), name='post_list'),\n    path('', views.post_list, name='post_list'),\n    path('tag/<slug:tag_slug>/', views.post_list, name='post_list_by_tag'),\n    path('<int:year>/<int:month>/<int:day>/<slug:post>/',\n         views.post_detail,\n         name='post_detail'),\n    path('<int:post_id>/share/', views.post_share, name='post_share')\n]",
         "detail": "blog.urls",
         "documentation": {}
     },
@@ -321,7 +431,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def post_list(request):\n    object_list = Post.published.all()\n    paginator = Paginator(object_list, 3)  # 3 posts in each page\n    page = request.GET.get('page')\n    try:\n        posts = paginator.page(page)\n    except PageNotAnInteger:\n        # If page is not an integer deliver the first page\n        posts = paginator.page(1)\n    except EmptyPage:",
+        "peekOfCode": "def post_list(request, tag_slug=None):\n    object_list = Post.published.all()\n    tag = None\n    if tag_slug:\n        tag = get_object_or_404(Tag, slug=tag_slug)\n        object_list = object_list.filter(tags__in=[tag])\n    paginator = Paginator(object_list, 3)  # 3 posts in each page\n    page = request.GET.get('page')\n    try:\n        posts = paginator.page(page)",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -330,7 +440,7 @@
         "kind": 2,
         "importPath": "blog.views",
         "description": "blog.views",
-        "peekOfCode": "def post_detail(request, year, month, day, post):\n    post = get_object_or_404(Post, slug=post,\n                             status='published',\n                             publish__year=year,\n                             publish__month=month,\n                             publish__day=day)\n    return render(request,\n                  'blog/post/detail.html',\n                  {'post': post})\nclass PostListView(ListView):",
+        "peekOfCode": "def post_detail(request, year, month, day, post):\n    post = get_object_or_404(Post, slug=post,\n                             status='published',\n                             publish__year=year,\n                             publish__month=month,\n                             publish__day=day)\n    comments = post.comments.filter(active=True)\n    new_comment = None\n    if request.method == 'POST':\n        comment_form = CommentForm(data=request.POST)",
         "detail": "blog.views",
         "documentation": {}
     },
@@ -384,7 +494,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog.apps.BlogConfig',\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'blog.apps.BlogConfig',\n    'taggit',\n]",
         "detail": "mysite.settings",
         "documentation": {}
     },
