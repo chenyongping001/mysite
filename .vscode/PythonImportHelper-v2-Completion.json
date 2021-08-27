@@ -91,6 +91,38 @@
         "documentation": {}
     },
     {
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Count",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -120,14 +152,6 @@
         "description": "blog.models",
         "isExtraImport": true,
         "detail": "blog.models",
-        "documentation": {}
-    },
-    {
-        "label": "forms",
-        "importPath": "django",
-        "description": "django",
-        "isExtraImport": true,
-        "detail": "django",
         "documentation": {}
     },
     {
@@ -251,14 +275,6 @@
         "documentation": {}
     },
     {
-        "label": "Count",
-        "importPath": "django.db.models",
-        "description": "django.db.models",
-        "isExtraImport": true,
-        "detail": "django.db.models",
-        "documentation": {}
-    },
-    {
         "label": "Tag",
         "importPath": "taggit.models",
         "description": "taggit.models",
@@ -333,6 +349,42 @@
         "description": "blog.migrations.0003_post_tags",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('taggit', '0002_auto_20150616_2121'),\n        ('blog', '0002_comment'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='post',\n            name='tags',\n            field=taggit.managers.TaggableManager(help_text='A comma-separated list of tags.', through='taggit.TaggedItem', to='taggit.Tag', verbose_name='Tags'),",
         "detail": "blog.migrations.0003_post_tags",
+        "documentation": {}
+    },
+    {
+        "label": "total_posts",
+        "kind": 2,
+        "importPath": "blog.templatetags.blog_tags",
+        "description": "blog.templatetags.blog_tags",
+        "peekOfCode": "def total_posts():\n    return Post.published.count()\n@register.inclusion_tag('blog/post/latest_posts.html')\ndef show_latest_posts(count=5):\n    latest_posts = Post.published.order_by('-publish')[:count]\n    return {'latest_posts': latest_posts}\n@register.simple_tag\ndef get_most_commented_posts(count=5):\n    return Post.published.annotate(total_comments=Count('comments')).order_by('-total_comments')[:count]",
+        "detail": "blog.templatetags.blog_tags",
+        "documentation": {}
+    },
+    {
+        "label": "show_latest_posts",
+        "kind": 2,
+        "importPath": "blog.templatetags.blog_tags",
+        "description": "blog.templatetags.blog_tags",
+        "peekOfCode": "def show_latest_posts(count=5):\n    latest_posts = Post.published.order_by('-publish')[:count]\n    return {'latest_posts': latest_posts}\n@register.simple_tag\ndef get_most_commented_posts(count=5):\n    return Post.published.annotate(total_comments=Count('comments')).order_by('-total_comments')[:count]",
+        "detail": "blog.templatetags.blog_tags",
+        "documentation": {}
+    },
+    {
+        "label": "get_most_commented_posts",
+        "kind": 2,
+        "importPath": "blog.templatetags.blog_tags",
+        "description": "blog.templatetags.blog_tags",
+        "peekOfCode": "def get_most_commented_posts(count=5):\n    return Post.published.annotate(total_comments=Count('comments')).order_by('-total_comments')[:count]",
+        "detail": "blog.templatetags.blog_tags",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 5,
+        "importPath": "blog.templatetags.blog_tags",
+        "description": "blog.templatetags.blog_tags",
+        "peekOfCode": "register = template.Library()\n@register.simple_tag\ndef total_posts():\n    return Post.published.count()\n@register.inclusion_tag('blog/post/latest_posts.html')\ndef show_latest_posts(count=5):\n    latest_posts = Post.published.order_by('-publish')[:count]\n    return {'latest_posts': latest_posts}\n@register.simple_tag\ndef get_most_commented_posts(count=5):",
+        "detail": "blog.templatetags.blog_tags",
         "documentation": {}
     },
     {
